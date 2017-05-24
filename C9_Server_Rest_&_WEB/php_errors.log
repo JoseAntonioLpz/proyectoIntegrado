@@ -1,0 +1,647 @@
+[20-Apr-2017 16:20:25 UTC] PHP Fatal error:  Call to a member function getSeguridadSocial() on a non-object in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 33
+[20-Apr-2017 16:20:25 UTC] PHP Stack trace:
+[20-Apr-2017 16:20:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[20-Apr-2017 16:20:25 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[20-Apr-2017 16:20:25 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[20-Apr-2017 16:20:25 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[20-Apr-2017 16:20:25 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[20-Apr-2017 16:22:10 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ',' or ';' in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 34
+[20-Apr-2017 16:22:10 UTC] PHP Stack trace:
+[20-Apr-2017 16:22:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[20-Apr-2017 16:22:10 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[20-Apr-2017 16:22:10 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[20-Apr-2017 16:22:10 UTC] PHP   4. ModeloUsuario->__construct() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:24
+[20-Apr-2017 16:22:10 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[20-Apr-2017 16:22:10 UTC] PHP   6. Autoload::load() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[20-Apr-2017 16:36:08 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 38
+[20-Apr-2017 16:36:08 UTC] PHP Stack trace:
+[20-Apr-2017 16:36:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[20-Apr-2017 16:36:08 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[20-Apr-2017 16:36:08 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[20-Apr-2017 16:36:08 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[20-Apr-2017 16:36:08 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[20-Apr-2017 16:37:46 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 38
+[20-Apr-2017 16:37:46 UTC] PHP Stack trace:
+[20-Apr-2017 16:37:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[20-Apr-2017 16:37:46 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[20-Apr-2017 16:37:46 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[20-Apr-2017 16:37:46 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[20-Apr-2017 16:37:46 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[20-Apr-2017 16:41:19 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 41
+[20-Apr-2017 16:41:19 UTC] PHP Stack trace:
+[20-Apr-2017 16:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[20-Apr-2017 16:41:19 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[20-Apr-2017 16:41:19 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[20-Apr-2017 16:41:19 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[20-Apr-2017 16:41:19 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[20-Apr-2017 16:41:37 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 41
+[20-Apr-2017 16:41:37 UTC] PHP Stack trace:
+[20-Apr-2017 16:41:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[20-Apr-2017 16:41:37 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[20-Apr-2017 16:41:37 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[20-Apr-2017 16:41:37 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[20-Apr-2017 16:41:37 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[20-Apr-2017 16:42:59 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 41
+[20-Apr-2017 16:42:59 UTC] PHP Stack trace:
+[20-Apr-2017 16:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[20-Apr-2017 16:42:59 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[20-Apr-2017 16:42:59 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[20-Apr-2017 16:42:59 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[20-Apr-2017 16:42:59 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 10:53:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'Usuario:     '@'localhost' (using password: NO) in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 35
+[25-Apr-2017 10:53:37 UTC] PHP Stack trace:
+[25-Apr-2017 10:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 10:53:37 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 10:53:37 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 10:53:37 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 10:53:37 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 10:53:37 UTC] PHP   6. mysqli_connect() /home/ubuntu/workspace/clases/gestor/GestorUsuario.php:35
+[25-Apr-2017 10:55:15 UTC] PHP Warning:  require_once(../conexion.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 4
+[25-Apr-2017 10:55:15 UTC] PHP Stack trace:
+[25-Apr-2017 10:55:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 10:55:15 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 10:55:15 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 10:55:15 UTC] PHP   4. ModeloUsuario->__construct() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:24
+[25-Apr-2017 10:55:15 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:55:15 UTC] PHP   6. Autoload::load() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:55:15 UTC] PHP   7. require_once() /home/ubuntu/workspace/clases/Autoload.php:17
+[25-Apr-2017 10:55:15 UTC] PHP Fatal error:  require_once(): Failed opening required '../conexion.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 4
+[25-Apr-2017 10:55:15 UTC] PHP Stack trace:
+[25-Apr-2017 10:55:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 10:55:15 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 10:55:15 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 10:55:15 UTC] PHP   4. ModeloUsuario->__construct() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:24
+[25-Apr-2017 10:55:15 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:55:15 UTC] PHP   6. Autoload::load() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:55:15 UTC] PHP   7. require_once() /home/ubuntu/workspace/clases/Autoload.php:17
+[25-Apr-2017 10:55:44 UTC] PHP Warning:  require_once(conexion.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 4
+[25-Apr-2017 10:55:44 UTC] PHP Stack trace:
+[25-Apr-2017 10:55:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 10:55:44 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 10:55:44 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 10:55:44 UTC] PHP   4. ModeloUsuario->__construct() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:24
+[25-Apr-2017 10:55:44 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:55:44 UTC] PHP   6. Autoload::load() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:55:44 UTC] PHP   7. require_once() /home/ubuntu/workspace/clases/Autoload.php:17
+[25-Apr-2017 10:55:44 UTC] PHP Fatal error:  require_once(): Failed opening required 'conexion.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 4
+[25-Apr-2017 10:55:44 UTC] PHP Stack trace:
+[25-Apr-2017 10:55:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 10:55:44 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 10:55:44 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 10:55:44 UTC] PHP   4. ModeloUsuario->__construct() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:24
+[25-Apr-2017 10:55:44 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:55:44 UTC] PHP   6. Autoload::load() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:55:44 UTC] PHP   7. require_once() /home/ubuntu/workspace/clases/Autoload.php:17
+[25-Apr-2017 10:56:06 UTC] PHP Warning:  require_once(../../conexion.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 4
+[25-Apr-2017 10:56:06 UTC] PHP Stack trace:
+[25-Apr-2017 10:56:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 10:56:06 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 10:56:06 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 10:56:06 UTC] PHP   4. ModeloUsuario->__construct() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:24
+[25-Apr-2017 10:56:06 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:56:06 UTC] PHP   6. Autoload::load() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:56:06 UTC] PHP   7. require_once() /home/ubuntu/workspace/clases/Autoload.php:17
+[25-Apr-2017 10:56:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../../conexion.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 4
+[25-Apr-2017 10:56:06 UTC] PHP Stack trace:
+[25-Apr-2017 10:56:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 10:56:06 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 10:56:06 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 10:56:06 UTC] PHP   4. ModeloUsuario->__construct() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:24
+[25-Apr-2017 10:56:06 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:56:06 UTC] PHP   6. Autoload::load() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:56:06 UTC] PHP   7. require_once() /home/ubuntu/workspace/clases/Autoload.php:17
+[25-Apr-2017 10:56:31 UTC] PHP Warning:  require_once(./conexion.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 4
+[25-Apr-2017 10:56:31 UTC] PHP Stack trace:
+[25-Apr-2017 10:56:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 10:56:31 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 10:56:31 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 10:56:31 UTC] PHP   4. ModeloUsuario->__construct() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:24
+[25-Apr-2017 10:56:31 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:56:31 UTC] PHP   6. Autoload::load() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:56:31 UTC] PHP   7. require_once() /home/ubuntu/workspace/clases/Autoload.php:17
+[25-Apr-2017 10:56:31 UTC] PHP Fatal error:  require_once(): Failed opening required './conexion.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 4
+[25-Apr-2017 10:56:31 UTC] PHP Stack trace:
+[25-Apr-2017 10:56:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 10:56:31 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 10:56:31 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 10:56:31 UTC] PHP   4. ModeloUsuario->__construct() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:24
+[25-Apr-2017 10:56:31 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:56:31 UTC] PHP   6. Autoload::load() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:11
+[25-Apr-2017 10:56:31 UTC] PHP   7. require_once() /home/ubuntu/workspace/clases/Autoload.php:17
+[25-Apr-2017 10:57:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 36
+[25-Apr-2017 10:57:18 UTC] PHP Stack trace:
+[25-Apr-2017 10:57:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 10:57:18 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 10:57:18 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 10:57:18 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 10:57:18 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 10:57:18 UTC] PHP   6. mysqli_connect() /home/ubuntu/workspace/clases/gestor/GestorUsuario.php:36
+[25-Apr-2017 10:57:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 36
+[25-Apr-2017 10:57:53 UTC] PHP Stack trace:
+[25-Apr-2017 10:57:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 10:57:53 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 10:57:53 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 10:57:53 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 10:57:53 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 10:57:53 UTC] PHP   6. mysqli_connect() /home/ubuntu/workspace/clases/gestor/GestorUsuario.php:36
+[25-Apr-2017 10:58:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 36
+[25-Apr-2017 10:58:08 UTC] PHP Stack trace:
+[25-Apr-2017 10:58:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 10:58:08 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 10:58:08 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 10:58:08 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 10:58:08 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 10:58:08 UTC] PHP   6. mysqli_connect() /home/ubuntu/workspace/clases/gestor/GestorUsuario.php:36
+[25-Apr-2017 10:59:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 36
+[25-Apr-2017 10:59:16 UTC] PHP Stack trace:
+[25-Apr-2017 10:59:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 10:59:16 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 10:59:16 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 10:59:16 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 10:59:16 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 10:59:16 UTC] PHP   6. mysqli_connect() /home/ubuntu/workspace/clases/gestor/GestorUsuario.php:36
+[25-Apr-2017 11:01:36 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 36
+[25-Apr-2017 11:01:36 UTC] PHP Stack trace:
+[25-Apr-2017 11:01:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 11:01:36 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 11:01:36 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 11:01:36 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 11:01:36 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 11:01:36 UTC] PHP   6. mysqli_connect() /home/ubuntu/workspace/clases/gestor/GestorUsuario.php:36
+[25-Apr-2017 11:04:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 36
+[25-Apr-2017 11:04:01 UTC] PHP Stack trace:
+[25-Apr-2017 11:04:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 11:04:01 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 11:04:01 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 11:04:01 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 11:04:01 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 11:04:01 UTC] PHP   6. mysqli_connect() /home/ubuntu/workspace/clases/gestor/GestorUsuario.php:36
+[25-Apr-2017 11:04:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: NO) in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 36
+[25-Apr-2017 11:04:29 UTC] PHP Stack trace:
+[25-Apr-2017 11:04:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 11:04:29 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 11:04:29 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 11:04:29 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 11:04:29 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 11:04:29 UTC] PHP   6. mysqli_connect() /home/ubuntu/workspace/clases/gestor/GestorUsuario.php:36
+[25-Apr-2017 11:04:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: NO) in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 36
+[25-Apr-2017 11:04:43 UTC] PHP Stack trace:
+[25-Apr-2017 11:04:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 11:04:43 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 11:04:43 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 11:04:43 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 11:04:43 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 11:04:43 UTC] PHP   6. mysqli_connect() /home/ubuntu/workspace/clases/gestor/GestorUsuario.php:36
+[25-Apr-2017 11:05:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: NO) in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 36
+[25-Apr-2017 11:05:04 UTC] PHP Stack trace:
+[25-Apr-2017 11:05:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 11:05:04 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 11:05:04 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 11:05:04 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 11:05:04 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 11:05:04 UTC] PHP   6. mysqli_connect() /home/ubuntu/workspace/clases/gestor/GestorUsuario.php:36
+[25-Apr-2017 11:06:25 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 39
+[25-Apr-2017 11:06:25 UTC] PHP Stack trace:
+[25-Apr-2017 11:06:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 11:06:25 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 11:06:25 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 11:06:25 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 11:06:25 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 11:06:25 UTC] PHP   6. mysql_query() /home/ubuntu/workspace/clases/gestor/GestorUsuario.php:39
+[25-Apr-2017 11:12:00 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 58
+[25-Apr-2017 11:12:00 UTC] PHP Stack trace:
+[25-Apr-2017 11:12:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 11:12:00 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 11:12:00 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 11:12:00 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 11:12:00 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 11:12:00 UTC] PHP   6. mysql_fetch_array() /home/ubuntu/workspace/clases/gestor/GestorUsuario.php:58
+[25-Apr-2017 11:12:19 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 58
+[25-Apr-2017 11:12:19 UTC] PHP Stack trace:
+[25-Apr-2017 11:12:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 11:12:19 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 11:12:19 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 11:12:19 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 11:12:19 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 11:12:19 UTC] PHP   6. mysql_fetch_array() /home/ubuntu/workspace/clases/gestor/GestorUsuario.php:58
+[25-Apr-2017 11:14:44 UTC] PHP Fatal error:  Call to undefined function getArray() in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 93
+[25-Apr-2017 11:14:44 UTC] PHP Stack trace:
+[25-Apr-2017 11:14:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 11:14:44 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 11:14:44 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 11:14:44 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 11:14:44 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 11:21:04 UTC] PHP Fatal error:  Call to undefined function setId() in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 66
+[25-Apr-2017 11:21:04 UTC] PHP Stack trace:
+[25-Apr-2017 11:21:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 11:21:04 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 11:21:04 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 11:21:04 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 11:21:04 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 11:21:27 UTC] PHP Fatal error:  Call to undefined function setId() in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 67
+[25-Apr-2017 11:21:27 UTC] PHP Stack trace:
+[25-Apr-2017 11:21:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 11:21:27 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 11:21:27 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 11:21:27 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 11:21:27 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[25-Apr-2017 11:22:37 UTC] PHP Fatal error:  Call to undefined function setId() in /home/ubuntu/workspace/clases/gestor/GestorUsuario.php on line 67
+[25-Apr-2017 11:22:37 UTC] PHP Stack trace:
+[25-Apr-2017 11:22:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[25-Apr-2017 11:22:37 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[25-Apr-2017 11:22:37 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[25-Apr-2017 11:22:37 UTC] PHP   4. ModeloUsuario->getUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:26
+[25-Apr-2017 11:22:37 UTC] PHP   5. GestorUsuario->getUser() /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php:40
+[26-Apr-2017 07:45:56 UTC] PHP Fatal error:  Class 'Usuario' not found in /home/ubuntu/workspace/utilidades/pruebas.php on line 39
+[26-Apr-2017 07:45:56 UTC] PHP Stack trace:
+[26-Apr-2017 07:45:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 07:45:56 UTC] PHP   2. getUser() /home/ubuntu/workspace/utilidades/pruebas.php:85
+[26-Apr-2017 07:50:11 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/utilidades/pruebas.php on line 92
+[26-Apr-2017 07:50:11 UTC] PHP Stack trace:
+[26-Apr-2017 07:50:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 07:50:11 UTC] PHP   2. getUser2() /home/ubuntu/workspace/utilidades/pruebas.php:99
+[26-Apr-2017 07:50:13 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/utilidades/pruebas.php on line 92
+[26-Apr-2017 07:50:13 UTC] PHP Stack trace:
+[26-Apr-2017 07:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 07:50:13 UTC] PHP   2. getUser2() /home/ubuntu/workspace/utilidades/pruebas.php:99
+[26-Apr-2017 07:51:46 UTC] PHP Fatal error:  Call to a member function getRepository() on a non-object in /home/ubuntu/workspace/utilidades/pruebas.php on line 94
+[26-Apr-2017 07:51:46 UTC] PHP Stack trace:
+[26-Apr-2017 07:51:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 07:51:46 UTC] PHP   2. getUser2() /home/ubuntu/workspace/utilidades/pruebas.php:101
+[26-Apr-2017 07:52:33 UTC] PHP Fatal error:  Call to a member function getRepository() on a non-object in /home/ubuntu/workspace/utilidades/pruebas.php on line 94
+[26-Apr-2017 07:52:33 UTC] PHP Stack trace:
+[26-Apr-2017 07:52:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 07:52:33 UTC] PHP   2. getUser2() /home/ubuntu/workspace/utilidades/pruebas.php:101
+[26-Apr-2017 07:52:45 UTC] PHP Fatal error:  Call to a member function getRepository() on a non-object in /home/ubuntu/workspace/utilidades/pruebas.php on line 94
+[26-Apr-2017 07:52:45 UTC] PHP Stack trace:
+[26-Apr-2017 07:52:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 07:52:45 UTC] PHP   2. getUser2() /home/ubuntu/workspace/utilidades/pruebas.php:101
+[26-Apr-2017 07:53:56 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/utilidades/pruebas.php on line 100
+[26-Apr-2017 07:53:56 UTC] PHP Stack trace:
+[26-Apr-2017 07:53:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 07:53:56 UTC] PHP   2. getUser2() /home/ubuntu/workspace/utilidades/pruebas.php:113
+[26-Apr-2017 07:54:17 UTC] PHP Fatal error:  Call to a member function createQuery() on a non-object in /home/ubuntu/workspace/utilidades/pruebas.php on line 100
+[26-Apr-2017 07:54:17 UTC] PHP Stack trace:
+[26-Apr-2017 07:54:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 07:54:17 UTC] PHP   2. getUser2() /home/ubuntu/workspace/utilidades/pruebas.php:113
+[26-Apr-2017 08:02:32 UTC] PHP Fatal error:  Call to a member function createQuery() on a non-object in /home/ubuntu/workspace/utilidades/pruebas.php on line 53
+[26-Apr-2017 08:02:32 UTC] PHP Stack trace:
+[26-Apr-2017 08:02:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 08:02:32 UTC] PHP   2. getUser2() /home/ubuntu/workspace/utilidades/pruebas.php:66
+[26-Apr-2017 08:04:42 UTC] PHP Fatal error:  Call to a member function createQuery() on a non-object in /home/ubuntu/workspace/utilidades/pruebas.php on line 53
+[26-Apr-2017 08:04:42 UTC] PHP Stack trace:
+[26-Apr-2017 08:04:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 08:04:42 UTC] PHP   2. getUser2() /home/ubuntu/workspace/utilidades/pruebas.php:66
+[26-Apr-2017 08:04:53 UTC] PHP Fatal error:  Call to a member function createQuery() on a non-object in /home/ubuntu/workspace/utilidades/pruebas.php on line 53
+[26-Apr-2017 08:04:53 UTC] PHP Stack trace:
+[26-Apr-2017 08:04:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 08:04:53 UTC] PHP   2. getUser2() /home/ubuntu/workspace/utilidades/pruebas.php:66
+[26-Apr-2017 08:09:41 UTC] PHP Fatal error:  Call to a member function getReference() on a non-object in /home/ubuntu/workspace/utilidades/pruebas.php on line 51
+[26-Apr-2017 08:09:41 UTC] PHP Stack trace:
+[26-Apr-2017 08:09:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 08:09:41 UTC] PHP   2. getUser2() /home/ubuntu/workspace/utilidades/pruebas.php:67
+[26-Apr-2017 08:12:01 UTC] PHP Fatal error:  Call to a member function getRepository() on a non-object in /home/ubuntu/workspace/utilidades/pruebas.php on line 72
+[26-Apr-2017 08:12:01 UTC] PHP Stack trace:
+[26-Apr-2017 08:12:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 08:12:01 UTC] PHP   2. getUser3() /home/ubuntu/workspace/utilidades/pruebas.php:77
+[26-Apr-2017 08:12:14 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/utilidades/pruebas.php on line 82
+[26-Apr-2017 08:12:14 UTC] PHP Stack trace:
+[26-Apr-2017 08:12:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 08:12:14 UTC] PHP   2. getUser4() /home/ubuntu/workspace/utilidades/pruebas.php:86
+[26-Apr-2017 08:12:24 UTC] PHP Fatal error:  Call to a member function getReference() on a non-object in /home/ubuntu/workspace/utilidades/pruebas.php on line 82
+[26-Apr-2017 08:12:24 UTC] PHP Stack trace:
+[26-Apr-2017 08:12:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 08:12:24 UTC] PHP   2. getUser4() /home/ubuntu/workspace/utilidades/pruebas.php:86
+[26-Apr-2017 08:16:07 UTC] PHP Fatal error:  Call to a member function getReference() on a non-object in /home/ubuntu/workspace/utilidades/pruebas.php on line 81
+[26-Apr-2017 08:16:07 UTC] PHP Stack trace:
+[26-Apr-2017 08:16:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/utilidades/pruebas.php:0
+[26-Apr-2017 08:16:07 UTC] PHP   2. getUser4() /home/ubuntu/workspace/utilidades/pruebas.php:85
+[02-May-2017 12:24:37 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php on line 27
+[02-May-2017 12:24:37 UTC] PHP Stack trace:
+[02-May-2017 12:24:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 12:24:37 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 12:24:37 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[02-May-2017 12:24:47 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php on line 27
+[02-May-2017 12:24:47 UTC] PHP Stack trace:
+[02-May-2017 12:24:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 12:24:47 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 12:24:47 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[02-May-2017 12:27:53 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php on line 27
+[02-May-2017 12:27:53 UTC] PHP Stack trace:
+[02-May-2017 12:27:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 12:27:53 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 12:27:53 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[02-May-2017 12:34:17 UTC] PHP Fatal error:  Call to a member function addCita() on a non-object in /home/ubuntu/workspace/clases/modelo/ModeloCita.php on line 21
+[02-May-2017 12:34:17 UTC] PHP Stack trace:
+[02-May-2017 12:34:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 12:34:17 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 12:34:17 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[02-May-2017 12:34:17 UTC] PHP   4. ModeloCita->insertCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:20
+[02-May-2017 12:34:51 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[02-May-2017 12:34:51 UTC] PHP Stack trace:
+[02-May-2017 12:34:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 12:34:51 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 12:34:51 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[02-May-2017 12:34:51 UTC] PHP   4. ModeloCita->insertCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:20
+[02-May-2017 12:34:51 UTC] PHP   5. GestorCita->addCita() /home/ubuntu/workspace/clases/modelo/ModeloCita.php:21
+[02-May-2017 12:34:51 UTC] PHP   6. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:19
+[02-May-2017 12:34:51 UTC] PHP   7. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[02-May-2017 12:34:51 UTC] PHP   8. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[02-May-2017 12:34:51 UTC] PHP   9. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[02-May-2017 12:34:51 UTC] PHP  10. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[02-May-2017 12:34:51 UTC] PHP  11. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[02-May-2017 12:35:31 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[02-May-2017 12:35:31 UTC] PHP Stack trace:
+[02-May-2017 12:35:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 12:35:31 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 12:35:31 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[02-May-2017 12:35:31 UTC] PHP   4. ModeloCita->insertCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:20
+[02-May-2017 12:35:31 UTC] PHP   5. GestorCita->addCita() /home/ubuntu/workspace/clases/modelo/ModeloCita.php:21
+[02-May-2017 12:35:31 UTC] PHP   6. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:19
+[02-May-2017 12:35:31 UTC] PHP   7. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[02-May-2017 12:35:31 UTC] PHP   8. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[02-May-2017 12:35:31 UTC] PHP   9. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[02-May-2017 12:35:31 UTC] PHP  10. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[02-May-2017 12:35:31 UTC] PHP  11. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[02-May-2017 12:35:40 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[02-May-2017 12:35:40 UTC] PHP Stack trace:
+[02-May-2017 12:35:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 12:35:40 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 12:35:40 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[02-May-2017 12:35:40 UTC] PHP   4. ModeloCita->insertCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:20
+[02-May-2017 12:35:40 UTC] PHP   5. GestorCita->addCita() /home/ubuntu/workspace/clases/modelo/ModeloCita.php:21
+[02-May-2017 12:35:40 UTC] PHP   6. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:19
+[02-May-2017 12:35:40 UTC] PHP   7. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[02-May-2017 12:35:40 UTC] PHP   8. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[02-May-2017 12:35:40 UTC] PHP   9. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[02-May-2017 12:35:41 UTC] PHP  10. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[02-May-2017 12:35:41 UTC] PHP  11. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[02-May-2017 12:40:56 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[02-May-2017 12:40:56 UTC] PHP Stack trace:
+[02-May-2017 12:40:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 12:40:56 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 12:40:56 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[02-May-2017 12:40:56 UTC] PHP   4. ModeloCita->insertCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:20
+[02-May-2017 12:40:56 UTC] PHP   5. GestorCita->addCita() /home/ubuntu/workspace/clases/modelo/ModeloCita.php:21
+[02-May-2017 12:40:56 UTC] PHP   6. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:19
+[02-May-2017 12:40:56 UTC] PHP   7. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[02-May-2017 12:40:56 UTC] PHP   8. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[02-May-2017 12:40:56 UTC] PHP   9. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[02-May-2017 12:40:56 UTC] PHP  10. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[02-May-2017 12:40:56 UTC] PHP  11. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[02-May-2017 12:45:49 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\Common\Persistence\Mapping\MappingException' with message 'Class 'Citas' does not exist' in /home/ubuntu/workspace/clases/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/clases/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php(41): Doctrine\Common\Persistence\Mapping\MappingException::nonExistingClass('Citas')
+#1 /home/ubuntu/workspace/clases/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php(281): Doctrine\Common\Persistence\Mapping\RuntimeReflectionService->getParentClasses('Citas')
+#2 /home/ubuntu/workspace/clases/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php(311): Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getParentClasses('Citas')
+#3 /home/ubuntu/workspace/clases/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMeta in /home/ubuntu/workspace/clases/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[02-May-2017 12:54:24 UTC] PHP Fatal error:  Call to undefined method stdClass::format() in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[02-May-2017 12:54:24 UTC] PHP Stack trace:
+[02-May-2017 12:54:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 12:54:24 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 12:54:24 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[02-May-2017 12:54:24 UTC] PHP   4. ModeloCita->insertCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:20
+[02-May-2017 12:54:24 UTC] PHP   5. GestorCita->addCita() /home/ubuntu/workspace/clases/modelo/ModeloCita.php:21
+[02-May-2017 12:54:24 UTC] PHP   6. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:19
+[02-May-2017 12:54:24 UTC] PHP   7. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[02-May-2017 12:54:24 UTC] PHP   8. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[02-May-2017 12:54:24 UTC] PHP   9. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[02-May-2017 12:54:24 UTC] PHP  10. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[02-May-2017 12:54:24 UTC] PHP  11. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[02-May-2017 12:54:46 UTC] PHP Fatal error:  Call to undefined method stdClass::format() in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[02-May-2017 12:54:46 UTC] PHP Stack trace:
+[02-May-2017 12:54:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 12:54:46 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 12:54:46 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[02-May-2017 12:54:46 UTC] PHP   4. ModeloCita->insertCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:20
+[02-May-2017 12:54:46 UTC] PHP   5. GestorCita->addCita() /home/ubuntu/workspace/clases/modelo/ModeloCita.php:21
+[02-May-2017 12:54:46 UTC] PHP   6. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:19
+[02-May-2017 12:54:46 UTC] PHP   7. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[02-May-2017 12:54:46 UTC] PHP   8. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[02-May-2017 12:54:46 UTC] PHP   9. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[02-May-2017 12:54:46 UTC] PHP  10. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[02-May-2017 12:54:46 UTC] PHP  11. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[02-May-2017 12:55:38 UTC] PHP Fatal error:  Call to undefined method stdClass::format() in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[02-May-2017 12:55:38 UTC] PHP Stack trace:
+[02-May-2017 12:55:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 12:55:38 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 12:55:38 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[02-May-2017 12:55:38 UTC] PHP   4. ModeloCita->insertCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:20
+[02-May-2017 12:55:38 UTC] PHP   5. GestorCita->addCita() /home/ubuntu/workspace/clases/modelo/ModeloCita.php:22
+[02-May-2017 12:55:38 UTC] PHP   6. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:19
+[02-May-2017 12:55:38 UTC] PHP   7. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[02-May-2017 12:55:38 UTC] PHP   8. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[02-May-2017 12:55:38 UTC] PHP   9. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[02-May-2017 12:55:38 UTC] PHP  10. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[02-May-2017 12:55:38 UTC] PHP  11. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[02-May-2017 12:58:20 UTC] PHP Fatal error:  Call to undefined method stdClass::format() in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[02-May-2017 12:58:20 UTC] PHP Stack trace:
+[02-May-2017 12:58:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 12:58:20 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 12:58:20 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[02-May-2017 12:58:20 UTC] PHP   4. ModeloCita->insertCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:20
+[02-May-2017 12:58:20 UTC] PHP   5. GestorCita->addCita() /home/ubuntu/workspace/clases/modelo/ModeloCita.php:22
+[02-May-2017 12:58:20 UTC] PHP   6. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:19
+[02-May-2017 12:58:20 UTC] PHP   7. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[02-May-2017 12:58:20 UTC] PHP   8. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[02-May-2017 12:58:20 UTC] PHP   9. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[02-May-2017 12:58:20 UTC] PHP  10. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[02-May-2017 12:58:20 UTC] PHP  11. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[02-May-2017 12:59:13 UTC] PHP Fatal error:  Call to undefined method stdClass::format() in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[02-May-2017 12:59:13 UTC] PHP Stack trace:
+[02-May-2017 12:59:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 12:59:13 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 12:59:13 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[02-May-2017 12:59:13 UTC] PHP   4. ModeloCita->insertCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:20
+[02-May-2017 12:59:13 UTC] PHP   5. GestorCita->addCita() /home/ubuntu/workspace/clases/modelo/ModeloCita.php:22
+[02-May-2017 12:59:13 UTC] PHP   6. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:21
+[02-May-2017 12:59:13 UTC] PHP   7. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[02-May-2017 12:59:13 UTC] PHP   8. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[02-May-2017 12:59:13 UTC] PHP   9. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[02-May-2017 12:59:13 UTC] PHP  10. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[02-May-2017 12:59:13 UTC] PHP  11. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[02-May-2017 13:00:39 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[02-May-2017 13:00:39 UTC] PHP Stack trace:
+[02-May-2017 13:00:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 13:00:39 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 13:00:39 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[02-May-2017 13:00:39 UTC] PHP   4. ModeloCita->insertCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:20
+[02-May-2017 13:00:39 UTC] PHP   5. GestorCita->addCita() /home/ubuntu/workspace/clases/modelo/ModeloCita.php:22
+[02-May-2017 13:00:39 UTC] PHP   6. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:21
+[02-May-2017 13:00:39 UTC] PHP   7. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[02-May-2017 13:00:39 UTC] PHP   8. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[02-May-2017 13:00:39 UTC] PHP   9. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[02-May-2017 13:00:39 UTC] PHP  10. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[02-May-2017 13:00:39 UTC] PHP  11. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[02-May-2017 13:01:45 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[02-May-2017 13:01:45 UTC] PHP Stack trace:
+[02-May-2017 13:01:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 13:01:45 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 13:01:45 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[02-May-2017 13:01:45 UTC] PHP   4. ModeloCita->insertCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:20
+[02-May-2017 13:01:45 UTC] PHP   5. GestorCita->addCita() /home/ubuntu/workspace/clases/modelo/ModeloCita.php:22
+[02-May-2017 13:01:45 UTC] PHP   6. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:21
+[02-May-2017 13:01:45 UTC] PHP   7. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[02-May-2017 13:01:45 UTC] PHP   8. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[02-May-2017 13:01:45 UTC] PHP   9. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[02-May-2017 13:01:45 UTC] PHP  10. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[02-May-2017 13:01:45 UTC] PHP  11. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[02-May-2017 13:03:36 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[02-May-2017 13:03:36 UTC] PHP Stack trace:
+[02-May-2017 13:03:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[02-May-2017 13:03:36 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[02-May-2017 13:03:36 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[02-May-2017 13:03:36 UTC] PHP   4. ModeloCita->insertCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:20
+[02-May-2017 13:03:36 UTC] PHP   5. GestorCita->addCita() /home/ubuntu/workspace/clases/modelo/ModeloCita.php:22
+[02-May-2017 13:03:36 UTC] PHP   6. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:21
+[02-May-2017 13:03:36 UTC] PHP   7. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[02-May-2017 13:03:36 UTC] PHP   8. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[02-May-2017 13:03:36 UTC] PHP   9. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[02-May-2017 13:03:36 UTC] PHP  10. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[02-May-2017 13:03:36 UTC] PHP  11. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[08-May-2017 08:05:03 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php on line 27
+[08-May-2017 08:05:03 UTC] PHP Stack trace:
+[08-May-2017 08:05:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[08-May-2017 08:05:03 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[08-May-2017 08:05:03 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[08-May-2017 08:06:56 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php on line 27
+[08-May-2017 08:06:56 UTC] PHP Stack trace:
+[08-May-2017 08:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[08-May-2017 08:06:56 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[08-May-2017 08:06:56 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[09-May-2017 09:15:40 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[09-May-2017 09:15:40 UTC] PHP Stack trace:
+[09-May-2017 09:15:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/cita.php:0
+[09-May-2017 09:15:40 UTC] PHP   2. GestorCita->addCita() /home/ubuntu/workspace/front-end/cita.php:19
+[09-May-2017 09:15:40 UTC] PHP   3. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:21
+[09-May-2017 09:15:40 UTC] PHP   4. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[09-May-2017 09:15:40 UTC] PHP   5. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[09-May-2017 09:15:40 UTC] PHP   6. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[09-May-2017 09:15:40 UTC] PHP   7. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[09-May-2017 09:15:40 UTC] PHP   8. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[09-May-2017 09:16:22 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[09-May-2017 09:16:22 UTC] PHP Stack trace:
+[09-May-2017 09:16:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/cita.php:0
+[09-May-2017 09:16:22 UTC] PHP   2. GestorCita->addCita() /home/ubuntu/workspace/front-end/cita.php:19
+[09-May-2017 09:16:22 UTC] PHP   3. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:21
+[09-May-2017 09:16:22 UTC] PHP   4. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[09-May-2017 09:16:22 UTC] PHP   5. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[09-May-2017 09:16:22 UTC] PHP   6. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[09-May-2017 09:16:22 UTC] PHP   7. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[09-May-2017 09:16:22 UTC] PHP   8. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[09-May-2017 09:16:35 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[09-May-2017 09:16:35 UTC] PHP Stack trace:
+[09-May-2017 09:16:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/cita.php:0
+[09-May-2017 09:16:35 UTC] PHP   2. GestorCita->addCita() /home/ubuntu/workspace/front-end/cita.php:19
+[09-May-2017 09:16:35 UTC] PHP   3. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:21
+[09-May-2017 09:16:35 UTC] PHP   4. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[09-May-2017 09:16:35 UTC] PHP   5. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[09-May-2017 09:16:35 UTC] PHP   6. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[09-May-2017 09:16:35 UTC] PHP   7. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[09-May-2017 09:16:35 UTC] PHP   8. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[09-May-2017 09:16:48 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[09-May-2017 09:16:48 UTC] PHP Stack trace:
+[09-May-2017 09:16:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/cita.php:0
+[09-May-2017 09:16:48 UTC] PHP   2. GestorCita->addCita() /home/ubuntu/workspace/front-end/cita.php:19
+[09-May-2017 09:16:48 UTC] PHP   3. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:21
+[09-May-2017 09:16:48 UTC] PHP   4. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[09-May-2017 09:16:48 UTC] PHP   5. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[09-May-2017 09:16:48 UTC] PHP   6. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[09-May-2017 09:16:48 UTC] PHP   7. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[09-May-2017 09:16:48 UTC] PHP   8. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[09-May-2017 09:20:53 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/ubuntu/workspace/front-end/consultas.php on line 112
+[09-May-2017 09:20:53 UTC] PHP Stack trace:
+[09-May-2017 09:20:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/consultas.php:0
+[09-May-2017 09:21:53 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/ubuntu/workspace/front-end/consultas.php on line 112
+[09-May-2017 09:21:53 UTC] PHP Stack trace:
+[09-May-2017 09:21:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/consultas.php:0
+[09-May-2017 09:25:19 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() expects parameter 1 to be string, object given' in /home/ubuntu/workspace/front-end/consultas.php:112
+Stack trace:
+#0 /home/ubuntu/workspace/front-end/consultas.php(112): DateTime->__construct(Object(DateTime))
+#1 {main}
+  thrown in /home/ubuntu/workspace/front-end/consultas.php on line 112
+[17-May-2017 09:58:24 UTC] PHP Warning:  date_create() expects parameter 1 to be string, object given in /home/ubuntu/workspace/clases/modelo/ModeloCita.php on line 50
+[17-May-2017 09:58:24 UTC] PHP Stack trace:
+[17-May-2017 09:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[17-May-2017 09:58:24 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[17-May-2017 09:58:24 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[17-May-2017 09:58:24 UTC] PHP   4. ModeloCita->updateCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:47
+[17-May-2017 09:58:24 UTC] PHP   5. date_create() /home/ubuntu/workspace/clases/modelo/ModeloCita.php:50
+[17-May-2017 19:21:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/front-end/home.php on line 66
+[17-May-2017 19:21:57 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/front-end/home.php on line 70
+[18-May-2017 17:47:25 UTC] PHP Fatal error:  Call to a member function getSeguridadSocial() on a non-object in /home/ubuntu/workspace/front-end/updateCita.php on line 47
+[18-May-2017 17:47:25 UTC] PHP Stack trace:
+[18-May-2017 17:47:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/updateCita.php:0
+[18-May-2017 17:49:13 UTC] PHP Fatal error:  Call to a member function getSeguridadSocial() on a non-object in /home/ubuntu/workspace/front-end/updateCita.php on line 47
+[18-May-2017 17:49:13 UTC] PHP Stack trace:
+[18-May-2017 17:49:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/updateCita.php:0
+[18-May-2017 17:51:42 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/ubuntu/workspace/front-end/updateCita.php on line 60
+[18-May-2017 17:51:42 UTC] PHP Stack trace:
+[18-May-2017 17:51:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/updateCita.php:0
+[18-May-2017 18:09:26 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/ubuntu/workspace/front-end/updateCita.php on line 60
+[18-May-2017 18:09:26 UTC] PHP Stack trace:
+[18-May-2017 18:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/updateCita.php:0
+[18-May-2017 18:11:43 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/ubuntu/workspace/front-end/updateCita.php on line 60
+[18-May-2017 18:11:43 UTC] PHP Stack trace:
+[18-May-2017 18:11:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/updateCita.php:0
+[18-May-2017 18:21:10 UTC] PHP Fatal error:  Call to a member function setId() on a non-object in /home/ubuntu/workspace/front-end/updateCita.php on line 20
+[18-May-2017 18:21:10 UTC] PHP Stack trace:
+[18-May-2017 18:21:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/updateCita.php:0
+[18-May-2017 18:21:38 UTC] PHP Fatal error:  Call to a member function setSeguridadSocial() on a non-object in /home/ubuntu/workspace/front-end/updateCita.php on line 21
+[18-May-2017 18:21:38 UTC] PHP Stack trace:
+[18-May-2017 18:21:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/updateCita.php:0
+[18-May-2017 18:23:48 UTC] PHP Fatal error:  Call to a member function setSeguridadSocial() on a non-object in /home/ubuntu/workspace/front-end/updateCita.php on line 22
+[18-May-2017 18:23:48 UTC] PHP Stack trace:
+[18-May-2017 18:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/updateCita.php:0
+[18-May-2017 18:25:26 UTC] PHP Fatal error:  Call to a member function setId() on a non-object in /home/ubuntu/workspace/front-end/updateCita.php on line 21
+[18-May-2017 18:25:26 UTC] PHP Stack trace:
+[18-May-2017 18:25:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/updateCita.php:0
+[18-May-2017 18:27:28 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/front-end/updateCita.php on line 22
+[18-May-2017 18:27:28 UTC] PHP Stack trace:
+[18-May-2017 18:27:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/updateCita.php:0
+[18-May-2017 18:27:28 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorCita::updateCita() must be an instance of Cita, instance of stdClass given, called in /home/ubuntu/workspace/front-end/updateCita.php on line 29 and defined in /home/ubuntu/workspace/clases/gestor/GestorCita.php on line 85
+[18-May-2017 18:27:28 UTC] PHP Stack trace:
+[18-May-2017 18:27:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/updateCita.php:0
+[18-May-2017 18:27:28 UTC] PHP   2. GestorCita->updateCita() /home/ubuntu/workspace/front-end/updateCita.php:29
+[19-May-2017 08:02:54 UTC] PHP Fatal error:  Call to a member function setSeguridadSocial() on a non-object in /home/ubuntu/workspace/front-end/updateCita.php on line 26
+[19-May-2017 08:02:54 UTC] PHP Stack trace:
+[19-May-2017 08:02:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/updateCita.php:0
+[19-May-2017 08:07:44 UTC] PHP Fatal error:  Call to a member function setSeguridadSocial() on a non-object in /home/ubuntu/workspace/front-end/updateCita.php on line 26
+[19-May-2017 08:07:44 UTC] PHP Stack trace:
+[19-May-2017 08:07:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/updateCita.php:0
+[19-May-2017 08:15:44 UTC] PHP Fatal error:  Call to a member function setSeguridadSocial() on a non-object in /home/ubuntu/workspace/front-end/updateCita.php on line 28
+[19-May-2017 08:15:44 UTC] PHP Stack trace:
+[19-May-2017 08:15:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/updateCita.php:0
+[20-May-2017 11:46:27 UTC] PHP Fatal error:  Call to a member function getPassword() on a non-object in /home/ubuntu/workspace/front-end/login.php on line 19
+[20-May-2017 11:46:27 UTC] PHP Stack trace:
+[20-May-2017 11:46:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/login.php:0
+[20-May-2017 11:47:25 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[20-May-2017 11:47:25 UTC] PHP Stack trace:
+[20-May-2017 11:47:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/cita.php:0
+[20-May-2017 11:47:25 UTC] PHP   2. GestorCita->addCita() /home/ubuntu/workspace/front-end/cita.php:24
+[20-May-2017 11:47:25 UTC] PHP   3. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:21
+[20-May-2017 11:47:25 UTC] PHP   4. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[20-May-2017 11:47:25 UTC] PHP   5. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[20-May-2017 11:47:25 UTC] PHP   6. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[20-May-2017 11:47:25 UTC] PHP   7. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[20-May-2017 11:47:25 UTC] PHP   8. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[20-May-2017 11:47:41 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php on line 53
+[20-May-2017 11:47:41 UTC] PHP Stack trace:
+[20-May-2017 11:47:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/cita.php:0
+[20-May-2017 11:47:41 UTC] PHP   2. GestorCita->addCita() /home/ubuntu/workspace/front-end/cita.php:24
+[20-May-2017 11:47:41 UTC] PHP   3. Doctrine\ORM\EntityManager->flush() /home/ubuntu/workspace/clases/gestor/GestorCita.php:21
+[20-May-2017 11:47:41 UTC] PHP   4. Doctrine\ORM\UnitOfWork->commit() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:340
+[20-May-2017 11:47:41 UTC] PHP   5. Doctrine\ORM\UnitOfWork->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:335
+[20-May-2017 11:47:41 UTC] PHP   6. Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php:966
+[20-May-2017 11:47:41 UTC] PHP   7. Doctrine\DBAL\Statement->bindValue() /home/ubuntu/workspace/clases/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php:275
+[20-May-2017 11:47:41 UTC] PHP   8. Doctrine\DBAL\Types\DateType->convertToDatabaseValue() /home/ubuntu/workspace/clases/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php:114
+[20-May-2017 12:02:17 UTC] PHP Fatal error:  Call to a member function getPassword() on a non-object in /home/ubuntu/workspace/front-end/login.php on line 19
+[20-May-2017 12:02:17 UTC] PHP Stack trace:
+[20-May-2017 12:02:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/login.php:0
+[20-May-2017 12:03:28 UTC] PHP Parse error:  syntax error, unexpected ''aaaa-mm-dd'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/front-end/updateCita.php on line 68
+[20-May-2017 16:59:02 UTC] PHP Fatal error:  Call to a member function getPassword() on a non-object in /home/ubuntu/workspace/front-end/login.php on line 19
+[20-May-2017 16:59:02 UTC] PHP Stack trace:
+[20-May-2017 16:59:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/login.php:0
+[20-May-2017 17:00:13 UTC] PHP Fatal error:  Call to a member function getPassword() on a non-object in /home/ubuntu/workspace/front-end/login.php on line 19
+[20-May-2017 17:00:13 UTC] PHP Stack trace:
+[20-May-2017 17:00:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/login.php:0

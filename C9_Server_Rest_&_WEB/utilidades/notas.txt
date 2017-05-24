@@ -1,0 +1,11 @@
+# Hay que actualizar las tablas de la base de datos.
+
+
+
+
+28/04/2017
+
+Terminar gestores
+Mirar lo de las sesiones + cookies en el proyecto de las citas
+Estilos de gracias y mensaje de error
+
