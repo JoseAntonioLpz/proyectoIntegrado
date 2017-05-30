@@ -1,4 +1,4 @@
-package com.example.josea.consultasmedicas;
+package com.example.josea.consultasmedicas.view.recycler;
 
 import android.content.Context;
 import android.content.res.TypedArray;

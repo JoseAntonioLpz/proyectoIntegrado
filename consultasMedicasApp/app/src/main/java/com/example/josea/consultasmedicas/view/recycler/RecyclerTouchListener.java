@@ -1,4 +1,4 @@
-package com.example.josea.consultasmedicas;
+package com.example.josea.consultasmedicas.view.recycler;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

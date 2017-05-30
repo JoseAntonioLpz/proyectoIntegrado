@@ -23,6 +23,9 @@ android {
     defaultConfig {
         vectorDrawables.useSupportLibrary = true
     }
+    android {
+        useLibrary 'org.apache.http.legacy'
+    }
 }
 
 dependencies {

@@ -1,13 +1,13 @@
-package com.example.josea.consultasmedicas;
+package com.example.josea.consultasmedicas.view;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -19,6 +19,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.josea.consultasmedicas.util.Conversor;
+import com.example.josea.consultasmedicas.view.recycler.AdaptadorCitas;
+import com.example.josea.consultasmedicas.view.recycler.DividerItemDecoration;
+import com.example.josea.consultasmedicas.R;
+import com.example.josea.consultasmedicas.view.recycler.RecyclerTouchListener;
 import com.example.josea.consultasmedicas.pojo.Cita;
 
 import java.text.DateFormat;
@@ -33,8 +38,10 @@ public class MainActivity extends AppCompatActivity
     private AppCompatActivity yo = this;
     private Context context = this;
 
+    //public static List<Cita> citas = new ArrayList<>();
     private List<Cita> citas = new ArrayList<>();
     private RecyclerView recyclerView;
+    //public static AdaptadorCitas adaptador;
     private AdaptadorCitas adaptador;
 
     @Override
@@ -60,6 +67,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view, int position) {
                 Cita cita = citas.get(position);
                 Toast.makeText(getApplicationContext(), cita.getSeguridadSocial() + " is selected!", Toast.LENGTH_SHORT).show();
+                //Log.v("JSON: " , Conversor.citaToJson(cita));
             }
 
             @Override

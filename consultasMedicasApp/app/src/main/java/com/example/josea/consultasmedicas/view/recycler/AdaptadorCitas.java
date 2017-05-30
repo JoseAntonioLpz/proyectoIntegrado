@@ -1,4 +1,4 @@
-package com.example.josea.consultasmedicas;
+package com.example.josea.consultasmedicas.view.recycler;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.example.josea.consultasmedicas.R;
 import com.example.josea.consultasmedicas.pojo.Cita;
 
 import java.util.List;
