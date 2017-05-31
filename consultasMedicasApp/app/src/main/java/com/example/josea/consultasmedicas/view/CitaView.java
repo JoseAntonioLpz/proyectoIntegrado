@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.josea.consultasmedicas.Constantes;
 import com.example.josea.consultasmedicas.R;
 import com.example.josea.consultasmedicas.CRUD.cita.InsertarCita;
 import com.example.josea.consultasmedicas.pojo.Cita;
@@ -48,6 +49,8 @@ public class CitaView extends AppCompatActivity {
         btAceptar = (Button) findViewById(R.id.btAceptar);
         btCancelar = (Button) findViewById(R.id.btCancelar);
 
+        cargarDatos();
+
         btAceptar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -72,5 +75,11 @@ public class CitaView extends AppCompatActivity {
                 startActivity(new Intent(yo , MainActivity.class));
             }
         });
+    }
+
+    private void cargarDatos(){
+        if(Constantes.user != null){
+            etSeguridadSocial.setText(Constantes.user.getSeguridadSocial());
+        }
     }
 }

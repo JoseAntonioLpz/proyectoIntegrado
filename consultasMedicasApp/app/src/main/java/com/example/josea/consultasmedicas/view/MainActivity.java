@@ -7,7 +7,6 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,20 +16,25 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.josea.consultasmedicas.util.Conversor;
+import com.example.josea.consultasmedicas.CRUD.cita.DeleteCita;
+import com.example.josea.consultasmedicas.CRUD.cita.ReadCita;
+import com.example.josea.consultasmedicas.CRUD.usuario.DeleteUser;
+import com.example.josea.consultasmedicas.CRUD.usuario.UpdateUser;
+import com.example.josea.consultasmedicas.Constantes;
+import com.example.josea.consultasmedicas.pojo.Usuario;
 import com.example.josea.consultasmedicas.view.recycler.AdaptadorCitas;
 import com.example.josea.consultasmedicas.view.recycler.DividerItemDecoration;
 import com.example.josea.consultasmedicas.R;
 import com.example.josea.consultasmedicas.view.recycler.RecyclerTouchListener;
 import com.example.josea.consultasmedicas.pojo.Cita;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
+
+import static java.lang.Thread.sleep;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -38,9 +42,10 @@ public class MainActivity extends AppCompatActivity
     private AppCompatActivity yo = this;
     private Context context = this;
 
-    //public static List<Cita> citas = new ArrayList<>();
-    private List<Cita> citas = new ArrayList<>();
+    public static List<Cita> citas = new ArrayList<>();
+    //private List<Cita> citas = new ArrayList<>();
     private RecyclerView recyclerView;
+    private TextView tvUserName;
     //public static AdaptadorCitas adaptador;
     private AdaptadorCitas adaptador;
 
@@ -52,7 +57,8 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-
+        tvUserName = (TextView) findViewById(R.id.tvUserName);
+        //tvUserName.setText(Constantes.user.getFirstName() + Constantes.user.getLastName());
         adaptador = new AdaptadorCitas(citas);
 
         recyclerView.setHasFixedSize(true);
@@ -72,7 +78,12 @@ public class MainActivity extends AppCompatActivity
 
             @Override
             public void onLongClick(View view, int position) {
-
+                Cita cita = citas.get(position);
+                DeleteCita delete = new DeleteCita();
+                delete.execute(cita.getId());
+                Toast.makeText(getApplicationContext(), cita.getId() + " is eliminated!", Toast.LENGTH_SHORT).show();
+                citas.remove(position);
+                adaptador.notifyDataSetChanged();
             }
         }));
 
@@ -94,8 +105,12 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-        prepareMovieData();
+        citas.clear();
+        try {
+            cargarCitas();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
@@ -140,11 +155,17 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
+        if (id == R.id.btEditUser) {
+            /*Constantes.user.setLastName("perico");
+            UpdateUser update = new UpdateUser();
+            update.execute();*/
+        } else if (id == R.id.btDeleteUser) {
+            DeleteUser delete = new DeleteUser();
+            Toast.makeText(getApplicationContext(), Constantes.user.getSeguridadSocial() + " is eliminated!", Toast.LENGTH_SHORT).show();
+            delete.execute(Constantes.user.getSeguridadSocial());
+            Constantes.user = new Usuario();
+            startActivity(new Intent(yo, MainView.class));
+        }/*else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
 
@@ -152,22 +173,17 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_send) {
 
-        }
+        }*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
-    private void prepareMovieData() {
-        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-        Date date = new Date();
-        //System.out.println());
-        Cita c = new Cita(1 , "75579266R" , "Medico" , "Caca" , "958585936" , date);
-        //int id, String seguridadSocial, String type, String reason, String telephone, Date fecha
-        citas.add(c);
-        Cita c1 = new Cita(2 , "75579267R" , "Me comes la polla" , "vale" , "958585986" , date);
-        citas.add(c1);
+    private void cargarCitas() throws InterruptedException {
+        ReadCita get = new ReadCita();
+        get.execute();
+        sleep(2000);
         adaptador.notifyDataSetChanged();
     }
 }

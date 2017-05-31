@@ -25,20 +25,18 @@ public class ReadUser extends AsyncTask<String, Integer, Boolean>{
 
         String seguridadSocial = params[0];
 
-        HttpGet del = new HttpGet(Constantes.URL + "usuario/" + seguridadSocial);
+        HttpGet get = new HttpGet(Constantes.URL + "usuario/" + seguridadSocial);
 
-        del.setHeader("content-type", "application/json");
+        get.setHeader("content-type", "application/json");
 
         try
         {
-            HttpResponse resp = httpClient.execute(del);
+            HttpResponse resp = httpClient.execute(get);
             String respStr = EntityUtils.toString(resp.getEntity());
 
             JSONObject respJSON = new JSONObject(respStr);
             Constantes.user = Conversor.userFromJson(respJSON.toString());
-        }
-        catch(Exception ex)
-        {
+        }catch(Exception ex){
             ress = false;
             Log.e("ServicioRest","Error!", ex);
         }

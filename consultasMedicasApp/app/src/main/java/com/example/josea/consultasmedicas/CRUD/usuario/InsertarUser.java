@@ -30,8 +30,7 @@ public class InsertarUser extends AsyncTask<Usuario, Integer, Boolean>{
                 HttpPost(Constantes.URL + "usuario");
 
         post.setHeader("content-type", "application/json");
-        try
-        {
+        try {
             JSONObject dato = Conversor.userToJson(params[0]);
 
             StringEntity entity = new StringEntity(dato.toString());
@@ -42,9 +41,7 @@ public class InsertarUser extends AsyncTask<Usuario, Integer, Boolean>{
 
             if(!respStr.equals("true"))
                 ress = false;
-        }
-        catch(Exception ex)
-        {
+        }catch(Exception ex){
             Log.e("ServicioRest","Error!", ex);
             ress = false;
         }

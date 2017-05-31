@@ -31,8 +31,7 @@ public class InsertarCita extends AsyncTask<Cita,Integer,Boolean> {
                 HttpPost(Constantes.URL + "cita");
 
         post.setHeader("content-type", "application/json");
-        try
-        {
+        try{
             JSONObject dato = Conversor.citaToJson(params[0]);
 
             StringEntity entity = new StringEntity(dato.toString());
@@ -43,9 +42,7 @@ public class InsertarCita extends AsyncTask<Cita,Integer,Boolean> {
 
             if(!respStr.equals("true"))
                 ress = false;
-        }
-        catch(Exception ex)
-        {
+        }catch(Exception ex){
             Log.e("ServicioRest","Error!", ex);
             ress = false;
         }
