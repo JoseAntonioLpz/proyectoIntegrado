@@ -1,4 +1,4 @@
-package com.example.josea.consultasmedicas;
+package com.example.josea.consultasmedicas.util;
 
 import com.example.josea.consultasmedicas.pojo.Usuario;
 

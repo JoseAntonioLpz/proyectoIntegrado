@@ -3,6 +3,7 @@ package com.example.josea.consultasmedicas.view;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
@@ -22,8 +23,7 @@ import android.widget.Toast;
 import com.example.josea.consultasmedicas.CRUD.cita.DeleteCita;
 import com.example.josea.consultasmedicas.CRUD.cita.ReadCita;
 import com.example.josea.consultasmedicas.CRUD.usuario.DeleteUser;
-import com.example.josea.consultasmedicas.CRUD.usuario.UpdateUser;
-import com.example.josea.consultasmedicas.Constantes;
+import com.example.josea.consultasmedicas.util.Constantes;
 import com.example.josea.consultasmedicas.pojo.Usuario;
 import com.example.josea.consultasmedicas.view.recycler.AdaptadorCitas;
 import com.example.josea.consultasmedicas.view.recycler.DividerItemDecoration;
@@ -72,8 +72,9 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view, int position) {
                 Cita cita = citas.get(position);
-                Toast.makeText(getApplicationContext(), cita.getSeguridadSocial() + " is selected!", Toast.LENGTH_SHORT).show();
-                //Log.v("JSON: " , Conversor.citaToJson(cita));
+                Intent i = new Intent(yo, CitaViewUpdate.class);
+                i.putExtra("cita", cita);
+                startActivity(i);
             }
 
             @Override
@@ -159,6 +160,7 @@ public class MainActivity extends AppCompatActivity
             /*Constantes.user.setLastName("perico");
             UpdateUser update = new UpdateUser();
             update.execute();*/
+            startActivity(new Intent(yo, UserViewUpdate.class));
         } else if (id == R.id.btDeleteUser) {
             DeleteUser delete = new DeleteUser();
             Toast.makeText(getApplicationContext(), Constantes.user.getSeguridadSocial() + " is eliminated!", Toast.LENGTH_SHORT).show();

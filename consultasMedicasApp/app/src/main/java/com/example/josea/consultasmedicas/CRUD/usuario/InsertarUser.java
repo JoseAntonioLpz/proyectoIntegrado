@@ -3,7 +3,7 @@ package com.example.josea.consultasmedicas.CRUD.usuario;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.example.josea.consultasmedicas.Constantes;
+import com.example.josea.consultasmedicas.util.Constantes;
 import com.example.josea.consultasmedicas.pojo.Usuario;
 import com.example.josea.consultasmedicas.util.Conversor;
 

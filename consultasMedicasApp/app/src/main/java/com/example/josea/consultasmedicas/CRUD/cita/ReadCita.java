@@ -3,7 +3,7 @@ package com.example.josea.consultasmedicas.CRUD.cita;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.example.josea.consultasmedicas.Constantes;
+import com.example.josea.consultasmedicas.util.Constantes;
 import com.example.josea.consultasmedicas.pojo.Cita;
 import com.example.josea.consultasmedicas.util.Conversor;
 import com.example.josea.consultasmedicas.view.MainActivity;

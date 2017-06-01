@@ -3,7 +3,7 @@ package com.example.josea.consultasmedicas.CRUD.usuario;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.example.josea.consultasmedicas.Constantes;
+import com.example.josea.consultasmedicas.util.Constantes;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;

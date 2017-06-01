@@ -27,6 +27,12 @@
         <activity android:name=".view.UserView">
 
         </activity>
+        <activity android:name=".view.UserViewUpdate">
+
+        </activity>
+        <activity android:name=".view.CitaViewUpdate">
+
+        </activity>
     </application>
 
 </manifest>

@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.josea.consultasmedicas.CRUD.usuario.ReadUser;
-import com.example.josea.consultasmedicas.Constantes;
+import com.example.josea.consultasmedicas.util.Constantes;
 import com.example.josea.consultasmedicas.R;
 import com.example.josea.consultasmedicas.util.Sha1;
 

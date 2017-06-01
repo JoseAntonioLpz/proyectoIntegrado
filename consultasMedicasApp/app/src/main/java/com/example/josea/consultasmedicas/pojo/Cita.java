@@ -1,12 +1,15 @@
 package com.example.josea.consultasmedicas.pojo;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.util.Date;
 
 /**
  * Created by josea on 23/05/2017.
  */
 
-public class Cita {
+public class Cita implements Parcelable{
 
     private int id;
     private String seguridadSocial;
@@ -85,4 +88,40 @@ public class Cita {
                 ", fecha=" + fecha +
                 '}';
     }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeInt(id);
+        dest.writeString(seguridadSocial);
+        dest.writeString(type);
+        dest.writeString(reason);
+        dest.writeString(telephone);
+        dest.writeString(fecha.toString());
+    }
+    protected Cita(Parcel in) {
+        id = in.readInt();
+        seguridadSocial = in.readString();
+        type = in.readString();
+        reason = in.readString();
+        telephone = in.readString();
+        fecha = new Date();
+
+    }
+
+    public static final Creator<Cita> CREATOR = new Creator<Cita>() {
+        @Override
+        public Cita createFromParcel(Parcel in) {
+            return new Cita(in);
+        }
+
+        @Override
+        public Cita[] newArray(int size) {
+            return new Cita[size];
+        }
+    };
 }

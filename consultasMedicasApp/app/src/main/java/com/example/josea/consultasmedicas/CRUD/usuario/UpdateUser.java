@@ -3,7 +3,7 @@ package com.example.josea.consultasmedicas.CRUD.usuario;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.example.josea.consultasmedicas.Constantes;
+import com.example.josea.consultasmedicas.util.Constantes;
 import com.example.josea.consultasmedicas.util.Conversor;
 
 import org.apache.http.HttpResponse;
@@ -11,7 +11,6 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPut;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
 
 /**
