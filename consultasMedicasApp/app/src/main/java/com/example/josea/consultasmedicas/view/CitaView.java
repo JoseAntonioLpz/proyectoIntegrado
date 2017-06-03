@@ -13,6 +13,7 @@ import com.example.josea.consultasmedicas.util.Constantes;
 import com.example.josea.consultasmedicas.R;
 import com.example.josea.consultasmedicas.CRUD.cita.InsertarCita;
 import com.example.josea.consultasmedicas.pojo.Cita;
+import com.example.josea.consultasmedicas.util.UtilFecha;
 
 import java.util.Date;
 
@@ -60,7 +61,7 @@ public class CitaView extends AppCompatActivity {
                 String type = etType.getText().toString();
                 String reason = etReason.getText().toString();
 
-                Cita c = new Cita(3,seguridadSocial,type,reason,telephone,new Date());
+                Cita c = new Cita(3,seguridadSocial,type,reason,telephone, UtilFecha.stringToDate(fecha));
 
                 InsertarCita post = new InsertarCita();
                 post.execute(c);

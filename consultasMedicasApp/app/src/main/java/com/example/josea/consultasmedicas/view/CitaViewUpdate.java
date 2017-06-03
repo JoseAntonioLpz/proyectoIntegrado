@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -12,6 +13,7 @@ import android.widget.EditText;
 import com.example.josea.consultasmedicas.CRUD.cita.UpdateCita;
 import com.example.josea.consultasmedicas.R;
 import com.example.josea.consultasmedicas.pojo.Cita;
+import com.example.josea.consultasmedicas.util.UtilFecha;
 
 import java.util.Date;
 
@@ -48,7 +50,8 @@ public class CitaViewUpdate extends AppCompatActivity {
         telefono = (EditText) findViewById(R.id.etTelephoneUpCita);
         telefono.setText(cita.getTelephone());
         fecha = (EditText) findViewById(R.id.etFechaUpdCita);
-        //fecha.setText(cita.getFecha().toString());
+        Log.v("FECHA3: " , cita.getFecha().toString());
+        fecha.setText(UtilFecha.formatStringDate("dd/MM/yyyy" , cita.getFecha()));
         type = (EditText) findViewById(R.id.etTypeUpCita);
         type.setText(cita.getType());
         reason = (EditText) findViewById(R.id.etReasonUpCita);
@@ -61,7 +64,7 @@ public class CitaViewUpdate extends AppCompatActivity {
                 cita.setTelephone(telefono.getText().toString());
                 cita.setType(type.getText().toString());
                 cita.setReason(reason.getText().toString());
-                cita.setFecha(new Date());
+                cita.setFecha(UtilFecha.stringToDate(fecha.getText().toString()));
                 UpdateCita update = new UpdateCita();
                 update.execute(cita);
                 try {

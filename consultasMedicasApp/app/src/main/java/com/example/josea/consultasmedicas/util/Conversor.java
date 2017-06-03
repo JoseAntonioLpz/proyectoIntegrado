@@ -1,5 +1,7 @@
 package com.example.josea.consultasmedicas.util;
 
+import android.util.Log;
+
 import com.example.josea.consultasmedicas.pojo.Cita;
 import com.example.josea.consultasmedicas.pojo.Usuario;
 
@@ -22,8 +24,8 @@ public class Conversor {
             jsonObject.put("reason", cita.getReason());
             jsonObject.put("type", cita.getType());
             jsonObject.put("telephone", cita.getTelephone());
-            //jsonObject.put("fecha", cita.getFecha());
-            jsonObject.put("fecha" , "25-3-1998");
+            jsonObject.put("fecha", cita.getFecha());
+            //jsonObject.put("fecha" , "25-3-1998");
 
             return jsonObject;
         }catch (JSONException e){
@@ -40,8 +42,12 @@ public class Conversor {
         cita.setReason(objeto.getString("reason"));
         cita.setType(objeto.getString("type"));
         cita.setTelephone(objeto.getString("telephone"));
-        //cita.setFecha(objeto.getString("fecha"));
-        cita.setFecha(new Date());
+        JSONObject fecha = new JSONObject(objeto.getString("fecha"));
+        Log.v("FECHA2: " , fecha.getString("date"));
+        cita.setFecha(UtilFecha.stringToDate(fecha.getString("date")));
+        System.out.println(cita.getFecha().toString());
+        //Log.v("FECHA:", objeto.getString("fecha"));
+        //cita.setFecha(new Date());
         return cita;
     }
 

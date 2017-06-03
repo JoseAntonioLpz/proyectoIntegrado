@@ -3,6 +3,8 @@ package com.example.josea.consultasmedicas.pojo;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import com.example.josea.consultasmedicas.util.UtilFecha;
+
 import java.util.Date;
 
 /**
@@ -101,7 +103,7 @@ public class Cita implements Parcelable{
         dest.writeString(type);
         dest.writeString(reason);
         dest.writeString(telephone);
-        dest.writeString(fecha.toString());
+        dest.writeString(UtilFecha.formatStringDate("dd/MM/yyyy" , fecha));
     }
     protected Cita(Parcel in) {
         id = in.readInt();
@@ -109,7 +111,7 @@ public class Cita implements Parcelable{
         type = in.readString();
         reason = in.readString();
         telephone = in.readString();
-        fecha = new Date();
+        fecha = new Date(UtilFecha.dateToLong(in.readString()));
 
     }
 

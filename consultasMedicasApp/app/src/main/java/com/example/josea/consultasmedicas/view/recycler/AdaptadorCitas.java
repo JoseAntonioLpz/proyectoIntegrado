@@ -1,6 +1,7 @@
 package com.example.josea.consultasmedicas.view.recycler;
 
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +9,7 @@ import android.widget.TextView;
 
 import com.example.josea.consultasmedicas.R;
 import com.example.josea.consultasmedicas.pojo.Cita;
+import com.example.josea.consultasmedicas.util.UtilFecha;
 
 import java.util.List;
 
@@ -34,7 +36,8 @@ public class AdaptadorCitas extends RecyclerView.Adapter<AdaptadorCitas.MyViewHo
     public void onBindViewHolder(MyViewHolder holder, int position) {
         Cita cita = citas.get(position);
         holder.id.setText(Integer.toString(cita.getId()));
-        holder.fecha.setText(cita.getFecha().toString());
+        holder.fecha.setText(UtilFecha.formatStringDate("dd-MM-yyyy" , cita.getFecha()));
+        Log.v("FECHA: " , cita.getFecha().toString());
         holder.type.setText(cita.getType());
         holder.reason.setText(cita.getReason());
     }
