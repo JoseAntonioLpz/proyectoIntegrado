@@ -1,10 +1,15 @@
 package com.example.josea.consultasmedicas.view;
 
+import android.Manifest;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v4.app.ActivityCompat;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -43,10 +48,8 @@ public class MainActivity extends AppCompatActivity
     private Context context = this;
 
     public static List<Cita> citas = new ArrayList<>();
-    //private List<Cita> citas = new ArrayList<>();
     private RecyclerView recyclerView;
     private TextView tvUserName;
-    //public static AdaptadorCitas adaptador;
     private AdaptadorCitas adaptador;
 
     @Override
@@ -78,13 +81,28 @@ public class MainActivity extends AppCompatActivity
             }
 
             @Override
-            public void onLongClick(View view, int position) {
-                Cita cita = citas.get(position);
-                DeleteCita delete = new DeleteCita();
-                delete.execute(cita.getId());
-                Toast.makeText(getApplicationContext(), cita.getId() + " is eliminated!", Toast.LENGTH_SHORT).show();
-                citas.remove(position);
-                adaptador.notifyDataSetChanged();
+            public void onLongClick(View view, final int position) {
+                final Cita cita = citas.get(position);
+                AlertDialog.Builder builder = new AlertDialog.Builder(context);
+                builder.setMessage("¿Estas seguro que desea cancelar su cita?")
+                        .setTitle("Cancelar cita");
+                builder.setPositiveButton("¡Si!", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        DeleteCita delete = new DeleteCita();
+                        delete.execute(cita.getId());
+                        Toast.makeText(getApplicationContext(), cita.getId() + " is eliminated!", Toast.LENGTH_SHORT).show();
+                        citas.remove(position);
+                        adaptador.notifyDataSetChanged();
+                    }
+                });
+                builder.setNegativeButton("Bueno mejor no", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        // User cancelled the dialog
+                    }
+                });
+                AlertDialog dialog = builder.create();
+                dialog.show();
+
             }
         }));
 
@@ -133,17 +151,12 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.cerrarSesion) {
+        if (id == R.id.cerrarSesionpuntos) {
             startActivity(new Intent(yo, MainView.class));
             return true;
         }
-        if (id == R.id.ayuda) {
+        if (id == R.id.ayudapuntos) {
             return true;
         }
 
@@ -153,29 +166,45 @@ public class MainActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
         int id = item.getItemId();
 
         if (id == R.id.btEditUser) {
-            /*Constantes.user.setLastName("perico");
-            UpdateUser update = new UpdateUser();
-            update.execute();*/
             startActivity(new Intent(yo, UserViewUpdate.class));
         } else if (id == R.id.btDeleteUser) {
-            DeleteUser delete = new DeleteUser();
-            Toast.makeText(getApplicationContext(), Constantes.user.getSeguridadSocial() + " is eliminated!", Toast.LENGTH_SHORT).show();
-            delete.execute(Constantes.user.getSeguridadSocial());
-            Constantes.user = new Usuario();
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("¿Estas seguro que desea eliminar su cuenta?")
+                    .setTitle("Eliminar usuario");
+            builder.setPositiveButton("¡Si!", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    DeleteUser delete = new DeleteUser();
+                    Toast.makeText(getApplicationContext(), Constantes.user.getSeguridadSocial() + " is eliminated!", Toast.LENGTH_SHORT).show();
+                    delete.execute(Constantes.user.getSeguridadSocial());
+                    Constantes.user = new Usuario();
+                    startActivity(new Intent(yo, MainView.class));
+                }
+            });
+            builder.setNegativeButton("Bueno mejor no", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    // User cancelled the dialog
+                }
+            });
+            AlertDialog dialog = builder.create();
+            dialog.show();
+
+        } else if (id == R.id.Ayuda) {
+            Toast.makeText(getApplicationContext(), "Llamando a emergencias", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(Intent.ACTION_CALL);
+
+            intent.setData(Uri.parse("tel:112"));
+            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.CALL_PHONE}, 777);
+            }else {
+                startActivity(intent);
+            }
+
+        } else if (id == R.id.cerrarSesion) {
             startActivity(new Intent(yo, MainView.class));
-        }/*else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
-        }*/
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

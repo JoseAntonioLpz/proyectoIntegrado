@@ -15,7 +15,6 @@ import com.example.josea.consultasmedicas.R;
 import com.example.josea.consultasmedicas.pojo.Cita;
 import com.example.josea.consultasmedicas.util.UtilFecha;
 
-import java.util.Date;
 
 import static java.lang.Thread.sleep;
 

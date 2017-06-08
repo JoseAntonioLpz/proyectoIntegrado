@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/ayuda"
+        android:id="@+id/ayudapuntos"
         android:orderInCategory="100"
         android:title="Ayuda"
         app:showAsAction="never" />
     <item
-        android:id="@+id/cerrarSesion"
+        android:id="@+id/cerrarSesionpuntos"
         android:orderInCategory="100"
         android:title="Cerrar Sesión"
         app:showAsAction="never" />
