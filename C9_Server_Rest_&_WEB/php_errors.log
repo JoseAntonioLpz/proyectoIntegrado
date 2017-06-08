@@ -645,3 +645,60 @@ Stack trace:
 [20-May-2017 17:00:13 UTC] PHP Fatal error:  Call to a member function getPassword() on a non-object in /home/ubuntu/workspace/front-end/login.php on line 19
 [20-May-2017 17:00:13 UTC] PHP Stack trace:
 [20-May-2017 17:00:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/front-end/login.php:0
+[30-May-2017 10:40:52 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php on line 27
+[30-May-2017 10:40:52 UTC] PHP Stack trace:
+[30-May-2017 10:40:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[30-May-2017 10:40:52 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[30-May-2017 10:40:52 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[30-May-2017 10:41:04 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php on line 27
+[30-May-2017 10:41:04 UTC] PHP Stack trace:
+[30-May-2017 10:41:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[30-May-2017 10:41:04 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[30-May-2017 10:41:04 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[31-May-2017 09:39:27 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php on line 27
+[31-May-2017 09:39:27 UTC] PHP Stack trace:
+[31-May-2017 09:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[31-May-2017 09:39:27 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[31-May-2017 09:39:27 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[31-May-2017 09:39:29 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php on line 27
+[31-May-2017 09:39:29 UTC] PHP Stack trace:
+[31-May-2017 09:39:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[31-May-2017 09:39:29 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[31-May-2017 09:39:29 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[31-May-2017 10:10:44 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php on line 27
+[31-May-2017 10:10:44 UTC] PHP Stack trace:
+[31-May-2017 10:10:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[31-May-2017 10:10:44 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[31-May-2017 10:10:44 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[01-Jun-2017 08:33:45 UTC] PHP Fatal error:  Call to a member function setFirstName() on a non-object in /home/ubuntu/workspace/clases/modelo/ModeloUsuario.php on line 33
+[01-Jun-2017 08:33:45 UTC] PHP Stack trace:
+[01-Jun-2017 08:33:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[01-Jun-2017 08:33:45 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[01-Jun-2017 08:33:45 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[01-Jun-2017 08:33:45 UTC] PHP   4. ModeloUsuario->updateUsuario() /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php:35
+[05-Jun-2017 15:46:41 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/modelo/ModeloCita.php on line 28
+[05-Jun-2017 15:46:41 UTC] PHP Stack trace:
+[05-Jun-2017 15:46:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[05-Jun-2017 15:46:41 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[05-Jun-2017 15:46:41 UTC] PHP   3. ControladorCita->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:21
+[05-Jun-2017 15:46:41 UTC] PHP   4. ModeloCita->getCita() /home/ubuntu/workspace/clases/controlador/ControladorCita.php:34
+[05-Jun-2017 15:47:41 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php on line 27
+[05-Jun-2017 15:47:41 UTC] PHP Stack trace:
+[05-Jun-2017 15:47:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[05-Jun-2017 15:47:41 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[05-Jun-2017 15:47:41 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[05-Jun-2017 15:48:09 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php on line 27
+[05-Jun-2017 15:48:09 UTC] PHP Stack trace:
+[05-Jun-2017 15:48:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[05-Jun-2017 15:48:09 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[05-Jun-2017 15:48:09 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[05-Jun-2017 15:49:24 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php on line 27
+[05-Jun-2017 15:49:24 UTC] PHP Stack trace:
+[05-Jun-2017 15:49:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[05-Jun-2017 15:49:24 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[05-Jun-2017 15:49:24 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26
+[05-Jun-2017 16:00:40 UTC] PHP Fatal error:  Call to a member function getArray() on a non-object in /home/ubuntu/workspace/clases/controlador/ControladorUsuario.php on line 27
+[05-Jun-2017 16:00:40 UTC] PHP Stack trace:
+[05-Jun-2017 16:00:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/citas/api.php:0
+[05-Jun-2017 16:00:40 UTC] PHP   2. Api->findData() /home/ubuntu/workspace/citas/api.php:15
+[05-Jun-2017 16:00:40 UTC] PHP   3. ControladorUsuario->doOperation() /home/ubuntu/workspace/clases/rest/Api.php:26

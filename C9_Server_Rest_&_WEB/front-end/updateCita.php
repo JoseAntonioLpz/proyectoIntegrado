@@ -49,7 +49,7 @@
             <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
                 <div class="card">
                     <center>
-                    <p class="titulo">Pedir una cita</p>
+                    <p class="titulo">Actualizar cita</p>
                     <form action="updateCita.php?id=<?php echo $id ?>" method="post" enctype="multipart/form-data">
                         <input type="text" name="seguridadSocial" placeholder="Seguridad Social" value="<?php echo $cita->getSeguridadSocial()?>"/>
                         <br>
